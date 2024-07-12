@@ -18,8 +18,9 @@ body {
 }
 
 #datetime {
-    font-size: 2em; /* Tamaño más grande para la fecha y hora */
+    font-size: 3.5em; /* Tamaño más grande para la fecha y hora */
     margin-bottom: 20px;
+	font-weight: bold;
 }
 
 h1 {
