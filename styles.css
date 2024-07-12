@@ -1,0 +1,60 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#datetime {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#timer-controls {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+button#start {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+}
+
+button#stop {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+}
+
+button#reset {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    border: none;
+}
+
+button#btn-10min,
+button#btn-15min,
+button#btn-30min,
+button#btn-1hr {
+    background-color: #555555;
+    color: white;
+    border: none;
+}
+
+button#btn-10min:hover,
+button#btn-15min:hover,
+button#btn-30min:hover,
+button#btn-1hr:hover {
+    background-color: #333333;
+}
